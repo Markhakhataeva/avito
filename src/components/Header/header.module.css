@@ -25,19 +25,27 @@
     align-items: center;
 }
 
-.announc{
+.announc>a{
    color: white;
+    text-decoration: none;
 
 }
 
 .ellipse{
 display: flex;
     align-items: center;
+    position: relative;
 
 }
 .ellipse>p{
     margin: 0;
     padding-left: 10px;
     color: white;
+    cursor: pointer;
 
+}
+.absolute{
+    position: absolute;
+    top:50px;
+    left: -60px;
 }

@@ -14,7 +14,7 @@ function Menu(props) {
             <MenuRating/>
             <hr/>
             <ul>
-                <li>Мои объявления</li>
+                <li className={styles.active}>Мои объявления</li>
                 <li>Заказы</li>
                 <li>Мои отзывы</li>
                 <li>Избранное</li>
